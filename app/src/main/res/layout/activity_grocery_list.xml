@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8F0"
+    android:padding="16dp">
+
+    <!-- header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grocery_list"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- add item section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/etNewItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="add new item..."
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:padding="12dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!-- grocery list content -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGroceryList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+    <!-- placeholder when empty -->
+    <TextView
+        android:id="@+id/tvGroceryPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/grocery_list_placeholder"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:padding="32dp" />
+
+    <!-- action buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnClearList"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="clear list"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_button"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/back_to_home"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:background="@drawable/rounded_button_outline"
+                android:padding="12dp"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnShareList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="share grocery list"
+            android:textSize="14sp"
+            android:textColor="#4CAF50"
+            android:background="@drawable/rounded_button_outline"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- recipe name -->
+        <TextView
+            android:id="@+id/tvRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- recipe description -->
+        <TextView
+            android:id="@+id/tvRecipeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="recipe description"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- recipe info card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- cooking info -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvCookingTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15 mins"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:background="@drawable/rounded_tag"
+                        android:padding="8dp"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/tvMoodType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="fast"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#4CAF50"
+                        android:background="@drawable/rounded_tag"
+                        android:padding="8dp"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/tvCookingMethod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="stovetop"
+                        android:textSize="14sp"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/rounded_button"
+                        android:padding="8dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- ingredients section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ingredients needed:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <TextView
+                android:id="@+id/tvIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pasta, tomato sauce, cheese"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:padding="16dp"
+                android:lineSpacingExtra="4dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- instructions section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cooking instructions:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <TextView
+                android:id="@+id/tvInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="boil pasta, add sauce, sprinkle cheese"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:padding="16dp"
+                android:lineSpacingExtra="4dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnAddToGroceryList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="add to grocery list"
+                    android:textSize="14sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/rounded_button"
+                    android:padding="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btnClose"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="close"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:background="@drawable/rounded_button_outline"
+                    android:padding="12dp"
+                    android:layout_marginStart="8dp"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="share recipe"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:background="@drawable/rounded_button_outline"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuickBites</string>
+    <string name="cooking_time_format">%d mins</string>
+    <string name="meal_ideas">Meal Ideas</string>
+    <string name="no_recipes_found">No recipes found with those ingredients and mood. Try different ingredients or change your mood!</string>
+    <string name="back_to_search">Back to Search</string>
+    <string name="meal_ideas_for_mood">Meal ideas for %s mood</string>
+    <string name="meal_ideas_with_ingredients">Meal ideas for %s mood with your ingredients</string>
+    <string name="grocery_list_placeholder">Grocery list feature coming soon!\n\nThis will automatically add ingredients from your chosen recipes to a shopping list.</string>
+    <string name="grocery_list">Grocery List</string>
+    <string name="grocery_list_coming_soon">Grocery list feature coming soon!</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="your_favorite_recipes">Your Favorite Recipes</string>
+    <string name="no_favorite_recipes">No favorite recipes yet! Start searching for meals and tap the heart to save them here.</string>
+    <string name="recipe_name_placeholder">Recipe Name</string>
+    <string name="recipe_description_placeholder">Recipe Description</string>
+    <string name="sample_cooking_time">15 mins</string>
+    <string name="sample_mood_type">fast</string>
+    <string name="sample_ingredients">ingredients: pasta, tomato sauce, cheese</string>
+    <string name="sample_cooking_method">cook with: stovetop</string>
+    <string name="favorite_recipe">Favorite Recipe</string>
+    <string name="meal_ideas_fast">Meal ideas fast</string>
+    <string name="whats_in_your_kitchen">What\'s in your kitchen?</string>
+    <string name="ingredients_hint">Type ingredients separated by commas (e.g., chicken, rice, tomato)</string>
+    <string name="whats_your_mood">What\'s your mood?</string>
+    <string name="mood_fast">Fast</string>
+    <string name="mood_healthy">Healthy</string>
+    <string name="mood_comfort">Comfort</string>
+    <string name="mood_mix">Mix</string>
+    <string name="find_meal_ideas">Find Meal Ideas</string>
+    <string name="favorites">Favorites</string>
+    <string name="made_for_busy_people">Made for busy people who want quick meal ideas</string>
+</resources>

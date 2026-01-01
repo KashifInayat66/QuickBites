@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="your favorite recipes"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- search bar -->
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:hint="search favorites..."
+        android:padding="12dp"
+        android:textSize="14sp" />
+
+    <!-- favorites list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- no favorites message -->
+    <TextView
+        android:id="@+id/tvNoFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="no favorite recipes yet! start searching for meals and tap the heart to save them here."
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- back button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_outline"
+        android:onClick="finish"
+        android:padding="12dp"
+        android:text="back to home"
+        android:textColor="#4CAF50"
+        android:textSize="16sp" />
+
+</LinearLayout>

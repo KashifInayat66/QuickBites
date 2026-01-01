@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- recipe image -->
+        <ImageView
+            android:id="@+id/ivRecipeImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="recipe image"
+            android:background="#E0E0E0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <!-- recipe header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvRecipeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipe_name_placeholder"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/tvRecipeDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipe_description_placeholder"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivFavorite"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/favorite_recipe"
+                android:padding="4dp"
+                android:src="@drawable/ic_favorite_outline"
+                tools:ignore="ImageContrastCheck" />
+
+        </LinearLayout>
+
+        <!-- recipe details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvCookingTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_cooking_time"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                android:background="@drawable/rounded_tag"
+                android:padding="6dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" />
+
+            <TextView
+                android:id="@+id/tvMoodType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_tag"
+                android:padding="6dp"
+                android:text="@string/sample_mood_type"
+                android:textColor="#33691E"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- ingredients -->
+        <TextView
+            android:id="@+id/tvIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/sample_ingredients"
+            android:textColor="#757575"
+            android:textSize="12sp" />
+
+        <!-- cooking method button -->
+        <Button
+            android:id="@+id/btnCookingMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/sample_cooking_method"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
