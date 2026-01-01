@@ -1,10 +1,7 @@
-# QuickBites 🍽️
-
 <div align="center">
-  
-![QuickBites Logo](app_icon.png)
 
-**A smart meal planning Android app that turns your ingredients into delicious recipes**
+# QuickBites
+### Smart Meal Planning from Your Ingredients
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
 [![API](https://img.shields.io/badge/Min%20API-21-blue.svg)](https://developer.android.com/about/versions/lollipop)
@@ -16,7 +13,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 QuickBites solves a universal problem: **"What should I cook?"** 
 
@@ -30,31 +27,31 @@ Instead of staring at your fridge wondering what to make, simply input your avai
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- 🔍 **Intelligent Ingredient Search** - Type what you have, discover what you can make
-- 🎭 **Mood-Based Filtering** - Choose between Fast, Healthy, Comfort, or Mix recipes
-- 📸 **Real Recipe Images** - Professional food photography for every dish
-- ⭐ **Smart Favorites System** - Save and quickly access your preferred recipes
-- 🔎 **Advanced Search** - Filter favorites by name, ingredients, or category
-- 📝 **Integrated Grocery List** - Auto-generate shopping lists from recipes
-- 🔗 **Social Sharing** - Share recipes and lists via any messaging app
+- **Intelligent Ingredient Search** - Type what you have, discover what you can make
+- **Mood-Based Filtering** - Choose between Fast, Healthy, Comfort, or Mix recipes
+- **Real Recipe Images** - Professional food photography for every dish
+- **Smart Favorites System** - Save and quickly access your preferred recipes
+- **Advanced Search** - Filter favorites by name, ingredients, or category
+- **Integrated Grocery List** - Auto-generate shopping lists from recipes
+- **Social Sharing** - Share recipes and lists via any messaging app
 
 ### Technical Highlights
-- 🌐 **Live API Integration** - Access to 1000+ recipes from TheMealDB
-- 📱 **Offline Capability** - Favorites stored locally for offline access
-- 🎨 **Modern Material Design** - Clean, intuitive user interface
-- ⚡ **Optimized Performance** - Fast loading with image caching
-- 🔄 **Real-time Updates** - Dynamic content loading with progress indicators
+- **Live API Integration** - Access to 1000+ recipes from TheMealDB
+- **Offline Capability** - Favorites stored locally for offline access
+- **Modern Material Design** - Clean, intuitive user interface
+- **Optimized Performance** - Fast loading with image caching
+- **Real-time Updates** - Dynamic content loading with progress indicators
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 <div align="center">
   
-_Screenshots coming soon - App in development_
+_Screenshots coming soon_
 
 | Home Screen | Recipe Results | Recipe Details |
 |-------------|----------------|----------------|
@@ -64,7 +61,7 @@ _Screenshots coming soon - App in development_
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Android Studio Hedgehog (2023.1.1) or newer
@@ -104,7 +101,7 @@ app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages & Frameworks
 - **Java** - Primary development language
@@ -148,7 +145,7 @@ SharedPreferences      // App settings storage
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 
@@ -208,7 +205,7 @@ Save to Favorites → DatabaseHelper → SQLite
 
 ---
 
-## 🔑 Key Algorithms
+## Key Algorithms
 
 ### Ingredient Matching
 - Searches TheMealDB API by primary ingredient
@@ -227,7 +224,7 @@ Save to Favorites → DatabaseHelper → SQLite
 
 ---
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 ### Phase 2 (In Development)
 - [ ] Meal planning calendar with weekly view
@@ -252,7 +249,7 @@ Save to Favorites → DatabaseHelper → SQLite
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing Checklist
 - [x] Search recipes by ingredient
@@ -285,7 +282,7 @@ Expected: Previously favorited recipes still accessible
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -303,24 +300,24 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
 **Divine Ibeawuchi**
 
-Software Engineering Student | Android Developer
+Software Engineering Student
 
 [![GitHub](https://img.shields.io/badge/GitHub-divineib-181717?style=flat&logo=github)](https://github.com/divineib)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/divine-ibeawuchi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/divine-ibeawuchi-c)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **TheMealDB** - For providing the comprehensive recipe API
 - **Material Design** - For UI/UX design guidelines
@@ -329,26 +326,25 @@ Software Engineering Student | Android Developer
 
 ---
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
 - **Open an Issue**: [GitHub Issues](https://github.com/divineib/QuickBites/issues)
-- **Email**: divine.ibeawuchi@example.com
 - **Discussions**: [GitHub Discussions](https://github.com/divineib/QuickBites/discussions)
 
 ---
 
-## ⭐ Show Your Support
+## Show Your Support
 
-If you find QuickBites helpful, please consider giving it a star ⭐ on GitHub!
+If you find QuickBites helpful, please consider giving it a star on GitHub!
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for people who love good food but hate meal planning**
+**Made with care for people who love good food but hate meal planning**
 
-[⬆ Back to Top](#quickbites-)
+[Back to Top](#quickbites)
 
 </div>
