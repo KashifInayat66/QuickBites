@@ -13,7 +13,7 @@
 
 ---
 
-## 📥 Download
+## Download
 
 ### Quick Install (Recommended)
 
@@ -37,7 +37,8 @@
 - ~10 MB storage space
 - Internet connection for recipe search
 
-**Note:** This is an unsigned APK. Your device may show a warning, which is normal for apps not from the Play Store.
+> [!NOTE]
+> This is an unsigned APK. Your device may show a warning, which is normal for apps not from the Play Store.
 
 ---
 
