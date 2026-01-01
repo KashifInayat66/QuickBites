@@ -50,12 +50,25 @@ Instead of staring at your fridge wondering what to make, simply input your avai
 ## Screenshots
 
 <div align="center">
-  
-_Screenshots coming soon_
 
-| Home Screen | Recipe Results | Recipe Details |
-|-------------|----------------|----------------|
-| TBD | TBD | TBD |
+### Home Screen
+<img src="screenshots/home_screen.png" width="250" alt="Home Screen"/>
+
+Search for recipes by typing ingredients and selecting your mood with the slider.
+
+---
+
+### Recipe Results
+<img src="screenshots/recipe_results.png" width="250" alt="Recipe Results"/>
+
+Browse through recipe suggestions with beautiful images from TheMealDB API.
+
+---
+
+### Recipe Details
+<img src="screenshots/recipe_details.png" width="250" alt="Recipe Details"/>
+
+View complete recipe information including ingredients, cooking time, and step-by-step instructions.
 
 </div>
 
