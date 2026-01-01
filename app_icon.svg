@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8E53;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="115" fill="url(#grad1)"/>
+  
+  <!-- Plate circle (white) -->
+  <circle cx="256" cy="280" r="160" fill="white" opacity="0.95"/>
+  
+  <!-- Fork (left side) -->
+  <g filter="url(#shadow)">
+    <!-- Fork handle -->
+    <rect x="140" y="200" width="16" height="180" rx="8" fill="#FF6B6B"/>
+    <!-- Fork prongs -->
+    <rect x="136" y="200" width="8" height="60" rx="4" fill="#FF6B6B"/>
+    <rect x="152" y="200" width="8" height="60" rx="4" fill="#FF6B6B"/>
+    <line x1="144" y1="260" x2="144" y2="200" stroke="#FF6B6B" stroke-width="4"/>
+  </g>
+  
+  <!-- Knife (right side) -->
+  <g filter="url(#shadow)">
+    <!-- Knife handle -->
+    <rect x="356" y="200" width="16" height="180" rx="8" fill="#FF6B6B"/>
+    <!-- Knife blade -->
+    <path d="M 364 200 L 374 190 L 374 260 L 364 260 Z" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Lightning bolt for "Quick" -->
+  <g filter="url(#shadow)">
+    <path d="M 256 260 L 240 310 L 260 310 L 250 350 L 280 300 L 265 300 L 280 260 Z" 
+          fill="#FFD93D" 
+          stroke="#FF8E53" 
+          stroke-width="3"/>
+  </g>
+  
+  <!-- "QB" monogram at top -->
+  <text x="256" y="140" 
+        font-family="Arial, sans-serif" 
+        font-size="80" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">QB</text>
+</svg>
