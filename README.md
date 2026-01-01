@@ -193,40 +193,91 @@ SharedPreferences      // App settings storage
 
 ```
 QuickBites/
-├── app/src/main/
-│   ├── java/com/example/quickbites/
-│   │   ├── MainActivity.java              # Home screen with search
-│   │   ├── RecipeListActivity.java       # Display search results
-│   │   ├── RecipeDetailsActivity.java    # Full recipe view
-│   │   ├── FavoritesActivity.java        # Saved recipes
-│   │   ├── GroceryListActivity.java      # Shopping list
-│   │   │
-│   │   ├── adapters/
-│   │   │   ├── RecipeAdapter.java        # RecyclerView adapter for recipes
-│   │   │   └── GroceryAdapter.java       # RecyclerView adapter for list items
-│   │   │
-│   │   ├── models/
-│   │   │   ├── Recipe.java               # Recipe data model
-│   │   │   └── GroceryItem.java          # Grocery item model
-│   │   │
-│   │   ├── api/
-│   │   │   ├── MealApiService.java       # Retrofit API interface
-│   │   │   ├── MealApiResponse.java      # API response models
-│   │   │   ├── RetrofitClient.java       # Singleton Retrofit instance
-│   │   │   └── ApiHelper.java            # API data transformation
-│   │   │
-│   │   └── database/
-│   │       └── DatabaseHelper.java       # SQLite database manager
+├── app/
+│   ├── build.gradle.kts                   # App-level Gradle configuration
+│   ├── proguard-rules.pro                 # ProGuard rules for code obfuscation
 │   │
-│   └── res/
-│       ├── layout/                        # XML layouts
-│       ├── drawable/                      # Icons and graphics
-│       ├── values/                        # Strings, colors, themes
-│       └── mipmap/                        # App icons
+│   └── src/
+│       ├── main/
+│       │   ├── AndroidManifest.xml        # App manifest
+│       │   │
+│       │   ├── java/com/example/quickbites/
+│       │   │   ├── MainActivity.java              # Home screen with search
+│       │   │   ├── RecipeListActivity.java        # Display search results
+│       │   │   ├── RecipeDetailsActivity.java     # Full recipe view
+│       │   │   ├── FavoritesActivity.java         # Saved recipes
+│       │   │   ├── GroceryListActivity.java       # Shopping list
+│       │   │   │
+│       │   │   ├── adapters/
+│       │   │   │   ├── RecipeAdapter.java         # RecyclerView adapter for recipes
+│       │   │   │   └── GroceryAdapter.java        # RecyclerView adapter for list items
+│       │   │   │
+│       │   │   ├── models/
+│       │   │   │   ├── Recipe.java                # Recipe data model
+│       │   │   │   └── GroceryItem.java           # Grocery item model
+│       │   │   │
+│       │   │   ├── api/
+│       │   │   │   ├── MealApiService.java        # Retrofit API interface
+│       │   │   │   ├── MealApiResponse.java       # API response models
+│       │   │   │   ├── RetrofitClient.java        # Singleton Retrofit instance
+│       │   │   │   └── ApiHelper.java             # API data transformation
+│       │   │   │
+│       │   │   └── database/
+│       │   │       └── DatabaseHelper.java        # SQLite database manager
+│       │   │
+│       │   └── res/
+│       │       ├── drawable/                       # Custom drawables and icons
+│       │       │   ├── ic_favorite_filled.xml
+│       │       │   ├── ic_favorite_outline.xml
+│       │       │   ├── rounded_button.xml
+│       │       │   └── rounded_edittext.xml
+│       │       │
+│       │       ├── layout/                         # XML layouts
+│       │       │   ├── activity_main.xml
+│       │       │   ├── activity_recipe_list.xml
+│       │       │   ├── activity_recipe_details.xml
+│       │       │   ├── activity_favorites.xml
+│       │       │   ├── activity_grocery_list.xml
+│       │       │   ├── item_recipe.xml
+│       │       │   └── item_grocery.xml
+│       │       │
+│       │       ├── mipmap-*/                       # App launcher icons (all densities)
+│       │       │
+│       │       ├── values/                         # Default values
+│       │       │   ├── colors.xml
+│       │       │   ├── strings.xml
+│       │       │   └── themes.xml
+│       │       │
+│       │       ├── values-night/                   # Dark theme values
+│       │       │   └── themes.xml
+│       │       │
+│       │       └── xml/                            # XML configurations
+│       │           ├── backup_rules.xml
+│       │           └── data_extraction_rules.xml
+│       │
+│       ├── androidTest/                            # Instrumented tests
+│       │   └── java/.../ExampleInstrumentedTest.java
+│       │
+│       └── test/                                   # Unit tests
+│           └── java/.../ExampleUnitTest.java
 │
-├── gradle/                                # Gradle configuration
+├── gradle/
+│   ├── libs.versions.toml                 # Centralized dependency versions
+│   └── wrapper/                           # Gradle wrapper files
+│
+├── screenshots/                           # App screenshots for documentation
+│   ├── home_screen.png
+│   ├── recipe_results.png
+│   └── recipe_details.png
+│
+├── build.gradle.kts                       # Project-level Gradle configuration
+├── settings.gradle.kts                    # Gradle settings
+├── gradle.properties                      # Gradle properties
+├── gradlew                                # Gradle wrapper script (Unix)
+├── gradlew.bat                            # Gradle wrapper script (Windows)
+├── LICENSE                                # MIT License
 ├── README.md                              # This file
-└── .gitignore                            # Git ignore rules
+└── .gitignore                             # Git ignore rules
 ```
 
 ### Data Flow
